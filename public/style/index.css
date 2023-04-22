@@ -1,0 +1,128 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css";
+
+#display_content 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#movie > img
+{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    width: 250px;
+    height: auto;
+}
+
+#movie_info
+{
+    display:grid;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+
+#movie_info textarea
+{
+    height: 100px;
+    padding-left: 15px;
+    color: black;
+    resize: none;
+
+}
+
+#movie_info #Plot_input
+{
+    height: 150px;
+}
+
+#movie_info label
+{
+    text-align: right;
+    padding-right:15px;
+    padding-top:5px;
+}
+
+#movie_info input
+{
+    width: 450px;
+    height: 38px;
+    padding-left: 10px;
+    color:black;
+   
+
+}
+
+#search_content
+{
+    display:grid;
+    grid-template-columns: 200px max-content;
+    justify-content: left;
+    padding-left:5%;
+    padding-bottom:40px;
+    grid-row-gap: 20px;
+}
+
+#search_content label
+{
+    text-align: right;
+    padding-right:15px;
+    padding-top:5px;
+}
+
+
+#location_button
+{
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search_button
+{
+    width: 80px;
+}
+
+.dropdown-item:hover
+{
+    background-color:lightgray;
+    cursor: pointer;
+}
+
+#date_calendar
+{
+    width: 200px;
+    justify-content: left;
+}
+
+#search_table
+{
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+.search_table_tr
+{
+
+    padding-top:10px;
+}
+
+.search_table_th:hover
+{
+    cursor:pointer;
+}
+
+.search_table_td
+{
+    vertical-align: bottom;
+    padding-left: 30px;
+}
+
+.hidden
+{
+    display:none;
+}
+
+

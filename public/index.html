@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <script src="script/index.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="style/index.css">
+    </head>
+    <body>
+        <section class="hero is-danger">
+            <div class="hero-body">
+                <p class="title">
+                    Showtimes
+                </p>
+                <p class="subtitle">
+                    Give me something to do!
+                </p>
+            </div>
+        </section>
+
+        <!-- two grid column content: id search and id movie -->
+        <div id="display_content">
+            <!-- left column contents -->
+            <div id="search">
+                <br>
+                
+                <div id="search_content">
+
+                    <!-- dropdown label -->
+                    <label id="search_Location"><strong>Location: </strong></label>
+    
+                    <!-- dropdown menu -->
+                    <div class="dropdown">
+                        <div class="dropdown-trigger">
+                        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" id="location_button">
+                            <span class="text" id="location_dropdown_text"></span>
+                            <span class="icon is-small" id="dropdown_Icon">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                        </div>
+                        <div class="dropdown-menu" id="dropdown_menu" role="menu">
+                        <!-- dropdown menu contents -->
+                        <div class="dropdown-content" id="dropdown_content">
+
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- date label -->
+                    <label id="search_date"><strong>Date: </strong></label>
+    
+                    <!-- calendar -->
+                    <input type="date" data-display-mode="inline" class="button" id="date_calendar" min="2023-04-22" max="2023-04-23">
+
+                    <label id="search_button_label"></label>
+                    <button class="button is-danger" id="search_button">Search</button>
+
+
+                </div>
+                
+    
+            </div>
+    
+            <!-- right column content -->
+            <div id="movie" class="hidden">
+                <br>
+                <img>
+                <br>
+                <!-- movie information -->
+                <div id="movie_info">
+                    <label id="Title"><strong>Title: </strong></label>
+                    <input id="Title_input" class="input" type="text" value="Sample text" readonly>
+    
+                    <label id="Year"><strong>Year: </strong></label>
+                    <input id="Year_input" class="input" type="text" value="Sample text" readonly>
+    
+                    <label id="Genre"><strong>Genre: </strong></label>
+                    <input id="Genre_input" class="input" type="text" value="Sample text" readonly>
+                  
+                    <label id="Runtime"><strong>Runtime: </strong></label>
+                    <input id="Runtime_input" class="input" type="text" value="Sample text" readonly>
+                   
+                    <label id="Director"><strong>Director: </strong></label>
+                    <input id="Director_input" class="input" type="text" value="Sample text" readonly>
+                   
+                    <label id="Writer"><strong>Writer: </strong></label>
+                    <input id="Writer_input" class="input" type="text" value="Sample text" readonly>
+                    
+                    <label id="Actors"><strong>Actors: </strong></label>
+                    <textarea class="input" id="Actors_input" readonly>Sample text</textarea>
+                 
+                    <label id="Plot"><strong>Plot: </strong></label>
+                    <textarea class="input" id="Plot_input" readonly>Sample text</textarea>
+                  
+                    <label id="Rating"><strong>Rating: </strong></label>
+                    <div id="Rating_input"></div>
+        
+                </div>
+    
+                <br><br>
+    
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,98 @@
+[
+    {
+        "id": "tt1300854",
+        "title": "Iron Man 3",
+        "location": "Oshawa Cinemas",
+        "date": "2023/04/22",
+        "times": [
+            "7:15pm",
+            "8:40pm"
+        ]
+    },
+    {
+        "id": "tt2911666",
+        "title": "John Wick",
+        "location": "Oshawa Cinemas",
+        "date": "2023/04/22",
+        "times": [
+            "7:35pm",
+            "8:10pm",
+            "9:05pm"
+        ]
+    },
+    {
+        "id": "tt0133093",
+        "title": "The Matrix",
+        "location": "Oshawa Cinemas",
+        "date": "2023/04/23",
+        "times": [
+            "6:45pm",
+            "9:15pm"
+        ]
+    },
+    {
+        "id": "tt0145487",
+        "title": "Spider-Man",
+        "location": "Oshawa Cinemas",
+        "date": "2023/04/23",
+        "times": [
+            "8:05pm",
+            "9:40pm"
+        ]
+    },
+    {
+        "id": "tt0993846",
+        "title": "The Wolf of Wall Street",
+        "location": "Whitby Cinemas",
+        "date": "2023/04/22",
+        "times": [
+            "4:10pm"
+        ]
+    },
+    {
+        "id": "tt3741700",
+        "title": "Godzilla: King of the Monsters",
+        "location": "Whitby Cinemas",
+        "date": "2023/04/22",
+        "times": [
+            "5:10pm"
+        ]
+    },
+    {
+        "id": "tt1663662",
+        "title": "Pacific Rim",
+        "location": "Oshawa Cinemas",
+        "date": "2023/04/23",
+        "times": [
+            "8:05pm",
+            "9:40pm"
+        ]
+    },
+    {
+        "id": "tt0120804",
+        "title": "Resident Evil",
+        "location": "Ajax Cinemas",
+        "date": "2023/04/22",
+        "times": [
+            "8:00pm"
+        ]
+    },
+    {
+        "id": "tt4154796",
+        "title": "Avengers: Endgame",
+        "location": "Ajax Cinemas",
+        "date": "2023/04/23",
+        "times": [
+            "6:00pm"
+        ]
+    },
+    {
+        "id": "tt10366206",
+        "title": "John Wick: Chapter 4",
+        "location": "Ajax Cinemas",
+        "date": "2023/04/22",
+        "times": [
+            "6:00pm"
+        ]
+    }
+]
