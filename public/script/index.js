@@ -63,6 +63,7 @@ function clickInfoDetail(data)
 
             // getting api key from environment variable, fetch movie data
             $.get('/api', function(data) {
+                console.log("date = ", data);
                 fetch("http://www.omdbapi.com/?i=" + movieObj.id + "&apikey=" + data)
                 .then((resp) => resp.json())
                 .then(function(resp) { 
