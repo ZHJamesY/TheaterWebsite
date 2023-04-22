@@ -24,3 +24,5 @@ app.get('/', (req, res) => {
 app.get('/api', function(req, res) {
     res.send(process.env.API_KEY);
 });
+
+console.log(process.env.API_KEY);
